@@ -1,0 +1,123 @@
+
+*{box-sizing:border-box;margin:0;padding:0}
+
+
+
+body{
+font-family: Verdana, Arial, Helvetica, sans-serif;  
+line-height:1.4;
+background-color:black
+}
+
+a{color:rgb(255, 254, 254);
+  text-decoration:none}
+.container{width:100%}
+
+#header #breadcrumb,#header 
+h1{text-align:center;
+color:#7217da}
+.product{margin-top:5px;
+margin-bottom:15px;
+border-bottom:1px solid #ffffff;
+display:flex}
+.list,
+.page,
+.product{padding:5px 10px}
+
+.product 
+img{min-width:100px}
+
+.product 
+div.details{padding-left:10px;
+padding-right:10px;
+width:80%}
+
+.product h2{
+  font-family:"Lucida Console", Courier, monospace;
+  color:#a011a0}
+.artist{
+  font-family: "Lucida Sans Typewriter Regular";
+  color:#ffffff;
+  font-weight:700}
+.price{
+  color:#f707a7;
+  font-size:1.2em;
+  font-weight:600;
+  font-family: "Verdana", Arial, Helvetica, sans-serif}
+
+.kind{
+    color:#07b3f7;
+    font-size:1.0em;
+    font-weight:400;
+    font-family: "Verdana", Arial, Helvetica, sans-serif}
+
+#search input[type=submit],
+.product .add-button
+{padding:8px 10px;
+border:0;
+border-radius:5px;
+min-width:80px;
+color:#fff;
+float:right;
+font-size:1.1em}
+.product .add-button
+{background-color:#a011a0}
+.product .remove-button
+{padding:10px 15px;
+border:0;
+border-radius:20px;
+color:#fff;
+float:right;
+font-size:1.1em;
+background-color:#f707a7;
+font-weight:700;
+font-size:1.2em}
+
+#search{text-align:center}#search 
+form{width:100%;
+padding-bottom:20px;
+border-bottom:1px solid #dbdbdb}
+
+#search 
+input[type=text]
+{border-radius:5px;
+padding:5px 10px;
+color:#000;
+font-size:1.3em;
+border:2px solid #9e9e9e;
+width:80%;
+margin-right:5px}  
+
+#search 
+input[type=submit]
+{background-color:#a011a0;
+width:15%;margin-right:5px}
+#baskettotal:before{content:"Total: £"}
+#baskettotal{font-size:1.5em;
+  width:100%;
+  font-weight:700;
+  text-align:center}
+
+#about #header,
+.page{
+color: #f707a7;
+text-align: center;
+padding-top: 20px;}
+
+.abouttxt {
+padding-top: 20px;
+color: #fff;
+line-height: 2.0;
+}
+
+
+  
+
+
+
+@media only screen and (min-width:992px)
+{.container{
+width:50%;
+margin:0 auto}
+}
+
