@@ -8,6 +8,7 @@ const Search = (props) => {
     const handleSubmit = (event) =>{
         event.preventDefault();
         props.search(props.term);
+        console.log ('search has worked')
     };
 
     return <div id="search">
